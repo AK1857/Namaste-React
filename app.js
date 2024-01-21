@@ -10,6 +10,7 @@ import Contact from "./src/components/Contact"
 
   const AppLayout=()=>{
     return(<div className="app">
+      <h1> This is a headrer before component</h1>
         <Header />
         <Outlet />
         
